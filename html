@@ -1,0 +1,26 @@
+<form id="callback" class="uk-background-muted uk-form-stacked uk-width-large uk-margin-auto">
+    <div class="form-header">
+    <h3 class="uk-text-center">Заполните поля</h3>
+        </div>
+<div class="uk-margin">
+    <input class=" uk-input required" name="name" type="text" placeholder="* Ваше имя:" />
+<div class="tm-error uk-margin-left">Вы не ввели имя</div>
+</div>
+<div class="uk-margin "><input class="telephone uk-input required" name="tel" type="tel" placeholder="* Ваш телефон:" />
+<div class="tm-error uk-margin-left">Телефон введён некорректно</div>
+</div>
+    
+    <div class="uk-text-center">
+    <label class="uk-form-label">
+<input id="find-me"  class="uk-margin-left uk-checkbox find-me" type="checkbox"> <span>Отправить гео-позицию</span></label>
+            
+            <p id="no-browser-support" class="no-browser-support uk-hidden">Sorry, the Geolocation API isn't supported in Your browser.</p>
+  <p id="coordinates" class="coordinates uk-hidden"><b id="latitude" class="latitude"></b>, <b id="longitude" class="longitude"></b></p>
+    </div>
+    
+    
+    
+    <div class="uk-margin uk-text-small uk-text-center uk-text-muted">Поля, отмеченные звёздочкой, обязательны к заполнению</div>
+<div class="uk-margin uk-text-center form-button">
+    <a onclick="ym(53330968, 'reachGoal', 'zvonok'); return true;" class="uk-button uk-button-primary rf-button-send uk-text-uppercase tm-black">Заказать звонок</a></div>
+<input name="rfSubject" type="hidden" value="Просьба перезвонить" /></form>
